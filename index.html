@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="signUpform">
+        <header>Sign up Form</header>
+        <form action="#">
+            <div class="field email">
+                <div class="input-area">
+                    <input type="email" id="email" name="email" placeholder="Email Address">
+                    <i class="icon fas fa-envelope"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Email can't be blank</div>
+            </div>
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <i class="icon fas fa-lock"></i>
+                    <i class="error error-icon fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error error-txt">Password can't be blank</div>
+            </div>
+            <input id="btnSignUp" type="button" value="Đăng ký">
+        </form>
+        <input type='button' id='btnSignOut' value='Đăng xuất' style="display: none;">
+        <div class="sign-txt">Already have account ? <a href="signin.html">Signin now</a></div>
+    
+    </div>
+</body>
+</html>
